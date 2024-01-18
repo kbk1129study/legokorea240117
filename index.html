@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>김보경-레고코리아</title>
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="./js/jquery.effects.core.js"></script>
+    <script src="./js/jquery.slicknav.js"></script> 
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.innerfade.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shoutcut icon" href="./images/fv.lego.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap" rel="stylesheet">
+   
+  <script>
+    $(function(){
+        // .inner-fade
+        /*
+            여러줄 주석
+            자바스크립트는 head와 body 에 포함 가능
+        */
+        $('.slideList').innerfade ({
+            animationtype:'fade',
+            timeout:3000
+        })
+    });
+    
+</script>
+
+<script></script>
+</head>
+<body>
+     
+    <!-- #wrap>header+main+footer -->
+    <div id="wrap">
+        <header>
+            <div class="headerInner">
+                <!-- 검색창 -->
+                <div class="search">
+                    <input type="text" placeholder="검색">
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+                </div>
+            <!-- h1.logo>a>img -->
+            <h1 class="logo">
+                <a href="#"><img src="./images/fv.lego.svg" alt="logo"></a>
+            </h1>
+            <!-- nav.menu -->
+            <nav class="menu">
+                <!-- ul>li*5>a -->
+                <ul>
+                    <li class="in_menu"><a href="#">레고 제품 쇼핑</a>
+                        <ul>
+                            <li><a href="#">시리즈별 세트</a></li>
+                            <li><a href="#">연령별</a></li>
+                            <li><a href="#">가격별</a></li>
+                            <li><a href="#">레고 상품</a></li>
+                        </ul>
+                    </li>
+                    <li class="in_menu"><a href="#">레고 브랜드 소개</a>
+                        <ul>
+                            <li><a href="#">기업 가치</a></li>
+                            <li><a href="#"> 레고 앱</a></li>
+                            <li><a href="#">레고 매거진</a></li>
+                            <li><a href="#">블프 라이브쇼핑</a></li>
+                        </ul>
+                    </li>
+                    <li class="in_menu"><a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">주문 현황 확인</a></li>
+                            <li><a href="#">배송 및 반품</a></li>
+                            <li><a href="#">스토어 검색</a></li>
+                            <li><a href="#">조립설명서 검색</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#">세일</a>
+                        <ul>
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                            <li><a href="#">sub4</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+        <div id="smenu_bar"></div>
+        </header>
+        <main>
+            <!-- .slide+.content -->
+            <div class="slide">
+                <!-- .slideList>.slideImg*3>a>img -->
+                <div class="slideList">
+                    <!-- # : 임시링크 -->
+                    <div class="slideImg">
+                        <h1 class="img_text">레고 테크닉 세일중 ~2024.02.01까지<button><p>구매하기</p></button></h1><a href="#"><img src="./images/slide/slide1.jpeg" alt="slide1"></a></div>
+                    <div class="slideImg">
+                        <p class="text_1">새로운 레고를 만나보세요!</p><a href="#"><img src="./images/slide/slide2.jpeg" alt="slide2"></a></div>
+                    <div class="slideImg">
+                        <p class="text_2">인상적인 슈퍼카에 어울리는 인상적인 조립</p><a href="#"><img src="./images/slide/slide3.jpg" alt="slide3"></a></div>
+                    <div class="slideImg">
+                        <p class="text_3">함께 조립하기에 완벽해요<br>
+                            함께 피어나는 친구는 늘 함께하는 법이니까요.</p><a href="#"><img src="./images/slide/slide9.jpeg" alt="slide4"></a></div>
+                    <div class="slideImg">
+                        <p class="text_4">레고® 슈퍼 마리오™<br>세트는 만 6세 이상 어린이와 성인 모두에게 인기 만점이에요.</p></h1><a href="#"><img src="./images/slide/slide5.jpg" alt="slide5"></a></div>
+                    <div class="slideImg">
+                        <p class="text_5">눈길을 사로잡는 전시용 작품</p><a href="#"><img src="./images/slide/slide6.jpeg" alt="slide6"></a></div>
+                    <div class="slideImg">
+                        <p class="text_6">엔지니어링의 경이로움을 레고®세트로<button><p>자세히보기</p></button></p><a href="#"><img src="./images/slide/slide7.jpg" alt="slide7"></a></div>
+                </div> 
+            </div>
+
+<!-- slick slide plugin -->
+            <!-- .banner_slider>.items>p>img -->
+            <div class="banner_slider">
+                <!-- 1 -->
+                <div class="items">
+                    <img src="./images/slick/s1.jpg" alt="제품1">
+                    <div class="items_textandbutton">
+                    <h2>미니 디즈니 에리얼 궁전</h2>
+                    <p>55,000원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="items">
+                    <img src="./images/slick/s2.jpg" alt="제품2">
+                    <div class="items_textandbutton">
+                    <h2>팝스타 뮤직 투어 버스</h2>
+                    <p>119,900원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="items">
+                    <img src="./images/slick/s3.jpg" alt="제품3">
+                    <div class="items_textandbutton">
+                    <h2>모듈식 우주기지</h2>
+                    <p>149,900원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="items">
+                    <img src="./images/slick/s4.jpg" alt="제품4">
+                    <div class="items_textandbutton">
+                    <h2>로켓과 아기 그루트</h2>
+                    <p>89,900원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="items">
+                    <img src="./images/slick/s5.jpg" alt="제품5">
+                    <div class="items_textandbutton">
+                    <h2>축제 캘린더</h2>
+                    <p>42,000원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="items">
+                    <img src="./images/slick/s6.jpg" alt="제품6">
+                    <div class="items_textandbutton">
+                    <h2>가족 상봉 축하연</h2>
+                    <p>149,900원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="items">
+                    <img src="./images/slick/s7.jpg" alt="제품7">
+                    <div class="items_textandbutton">
+                    <h2>레고® 미니피겨 시즌 25</h2>
+                    <p>200,000원</p>
+                    <button>장바구니담기</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content">             
+
+                <div class="noticeGallery">
+                    <!-- 공지,갤러리 -->
+                    <!-- h2+ul>li*5>a+span -->
+                    <h2>LEGO® News</h2>
+                    <ul>
+                        <li><a>교실에서 놀이방까지 : 레고® 점자 벽돌...</a><span>24-01-04</span></li>
+                        <li><a>레고 그룹, 아이들의 상상력 확장을 장려하기...</a><span>23-12-28</span></li>
+                        <li><a>새로운 레고® 아이디어: 폴라로이드 카메라를...</a><span>23-12-15</span></li>
+                        <li><a>레고 그룹, Andre' Doxey 디자인 책임자로 임...</a><span>23-12-14</span></li>
+                        <li><a>모험이 시작되다 레고® 포트나이트가 살아있습니다!</a><span>23-12-07</span></li>
+                    </ul>
+                </div>
+               
+                <div class="banner1">
+                    <h3>더 많은 포인트</h3>
+                        <p>세트를 구매하고 등록해<br>더 많은 포인트를 적립하세요!</p>
+                    <a href="#"><img src="./images/banner1.jpeg" alt="배너1"></a>
+                </div>
+                <div class="banner2">
+                    <h3>더 풍성한 리워드</h3>
+                        <p>레고® 굿즈, 할인 혜택, 레고랜드 티켓 등<br>다양한 회원 전용 리워드가 기다리고 있어요.</p>
+                        <a href="#"><img src="./images/banner2.jpeg" alt="배너2"></a>
+                </div>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="footerInner">
+            <!-- .bottomLogo+.copyright+.sns -->
+            <div class="bottomLogo">
+                <a><img src="./images/fv.lego.svg" alt="하단로고"></a>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright &copy; 1996-2024
+                    <a>BOKYUNG-Lego</a>
+                    All Rights Reserved.
+                </p>
+            </div>
+            <div class="sns">
+                <!-- ul>li*4>a>img -->
+                <ul>
+                    <li><a><img src="./images/facebook.svg" alt="페이스북"></a></li>
+                    <li><a><img src="./images/youtube.svg" alt="유튜브"></a></li>
+                    <li><a><img src="./images/x.svg" alt="x"></a></li>
+                    <li><a><img src="./images/instagram.svg" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+        </div>
+        </footer>
+    </div>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+   
+    <script>
+        // slick slide plugin
+        $(function () {
+            // 슬라이드 초기화
+            $(".banner_slider").slick({
+                autoplay: true, // 자동재생 활성화 
+                autoplaySpeed: 1000, 
+                infinite: true, // 무한반복슬라이드
+                slidesToShow: 5, // 보이는 슬라이드 갯수 
+                dots: false, // 인디케이터 비활성화 (보이게하려면true )                
+                focusOnSelect: true, //  슬라이드 선택시 포커스
+                arrows: true, // 이전, 다음 화살표
+                // speed: 200,  // 2초 (주석)
+                conterPadding: '120px', // 중앙 슬라이드와의간격               
+                centerMode: true // 중앙 슬라이드 모드 활성화 
+            })
+        });
+    </script>
+</body>
+</html>

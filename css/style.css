@@ -227,7 +227,6 @@ input {
     width: 100%;
     background-color: #ffcf00;
     min-height: 200px;
-    border-top: 1px solid #000;
     display: none;
     z-index: 99; 
 }
